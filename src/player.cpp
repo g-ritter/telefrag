@@ -428,8 +428,8 @@ void Player::updateVelo(Game* game) {
 	}
 
 	// decrease velocity if the player is not trying to move
-	if (!playerMoved && !(s_jumping && s_attacking)) {
-		if (std::abs(velocity.x()) <= .25) {
+	if ((!playerMoved && !(s_jumping && s_attacking) && !(s_running && s_attacking))) {
+		if (std::abs(velocity.x()) <= VELO_LOW_BOUND) {
 			velocity.x(0);
 		} else {
 			velocity.x(velocity.x() / VELO_DIVISOR);

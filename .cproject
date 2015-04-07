@@ -22,7 +22,7 @@
 							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.1876516220" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug"/>
 							<tool command="g++4.7" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1191268779" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.flags.1203584703" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-framework SDL2 -framework SDL2_image -framework SDL2_ttf" valueType="string"/>
-								<option id="macosx.cpp.link.option.libs.1195105986" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs"/>
+								<option id="macosx.cpp.link.option.libs.1195105986" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.587657392" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -44,7 +44,7 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.76458797" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.macosx.exe.debug.option.optimization.level.1858352923" name="Optimization Level" superClass="gnu.c.compiler.macosx.exe.debug.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.macosx.exe.debug.option.debugging.level.1710071646" name="Debug Level" superClass="gnu.c.compiler.macosx.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.1960565575" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath"/>
+								<option id="gnu.c.compiler.option.include.paths.1960565575" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.143986153" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 						</toolChain>
